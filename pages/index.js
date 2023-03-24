@@ -1,14 +1,14 @@
-import Head from 'next/head';
+import Head from 'next/head'
 
-
-export default function Home() {
+export default function Home () {
   return (
-    <div className='bg-black w-full'>
+    <div className="bg-black w-full">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <p className=' text-orange-100'>Media markt Hackathonnnn</p>
+      <h1 className="hello">Hello World</h1>
+      <p className=' text-white bg-slate-600'>Media markt Hackathonnnn</p>
     </div>
   )
 }
