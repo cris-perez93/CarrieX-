@@ -1,8 +1,6 @@
-import Modal from '../components/Modal'
 
 export default function Home () {
   return (
-    <Modal id="sign-in-modal" onRequestClose={() => console.log('close')}>
       <div className="w-full max-w-xs">
         <form className="bg-white  rounded px-8 pt-6 pb-8 mb-4">
           <div className="mb-4">
@@ -46,6 +44,5 @@ export default function Home () {
           </div>
         </form>
       </div>
-    </Modal>
   )
 }
